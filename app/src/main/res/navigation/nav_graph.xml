@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/contactsFragment">
+
+    <fragment
+        android:id="@+id/contactsFragment"
+        android:name="com.yuresko.chat.ui.fragments.Contacts"
+        android:label="friends_fragment"
+        tools:layout="@layout/fragment_contacts" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.yuresko.chat.ui.fragments.Profile"
+        android:label="profile_fragment"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/chatsFragment"
+        android:name="com.yuresko.chat.ui.fragments.Chats"
+        android:label="chats_fragment"
+        tools:layout="@layout/fragment_chats" />
+</navigation>

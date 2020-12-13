@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "746542320366",
+    "project_id": "messager-dd75c",
+    "storage_bucket": "messager-dd75c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746542320366:android:7d725bd78d83baae1301ff",
+        "android_client_info": {
+          "package_name": "com.yuresko.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746542320366-qqhbrosv1gi2ublasnr2atck7ce1bf9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOOM8B1nmnAb0VkICxA1kY9eOZSSfqfc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746542320366-qqhbrosv1gi2ublasnr2atck7ce1bf9b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

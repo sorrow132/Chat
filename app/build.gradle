@@ -2,6 +2,11 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'kotlin-kapt'
+    id 'com.google.gms.google-services'
+}
+
+kapt {
+    correctErrorTypes = true
 }
 
 android {
@@ -41,9 +46,16 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation 'androidx.camera:camera-camera2:1.0.0-beta12'
     implementation 'androidx.compose:compose-runtime:0.1.0-dev14'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.2.0'
     testImplementation 'junit:junit:4.13.1'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation platform('com.google.firebase:firebase-bom:26.1.1')
+
+    // Declare the dependency for the Firebase Authentication library
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'com.google.firebase:firebase-auth-ktx'
 
     // RxJava
     implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
@@ -60,8 +72,8 @@ dependencies {
 
     // Retrofit
     implementation 'com.squareup.retrofit2:adapter-rxjava2:2.8.1'
-    implementation 'com.squareup.retrofit2:converter-gson:2.8.1'
-    implementation 'com.squareup.retrofit2:retrofit:2.8.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
 
     // okHttpClient
     implementation "com.squareup.okhttp3:okhttp:4.5.0"
@@ -71,5 +83,15 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
 
+    // Navigation
+    implementation "androidx.navigation:navigation-fragment-ktx:2.3.2"
+    implementation "androidx.navigation:navigation-ui-ktx:2.3.2"
+
+    // CoordinatorLayout
+    implementation "androidx.coordinatorlayout:coordinatorlayout:1.1.0"
+
+    // Epoxy
+    implementation "com.airbnb.android:epoxy:4.3.1"
+    annotationProcessor "com.airbnb.android:epoxy-processor:4.3.1"
 
 }

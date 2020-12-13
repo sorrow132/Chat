@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chat</string>
+    <string name="toolbar_contacts">Contacts</string>
+    <string name="toolbar_profile">Profile</string>
+    <string name="toolbar_chats">Chats</string>
+    <string name="registration_text_input">Input your number</string>
+</resources>

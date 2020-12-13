@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/contactsFragment"
+        android:icon="@drawable/ic_contacts"
+        android:title="@string/toolbar_contacts" />
+
+    <item
+        android:id="@+id/chatsFragment"
+        android:icon="@drawable/ic_chat"
+        android:title="@string/toolbar_chats" />
+
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/toolbar_profile" />
+
+</menu>
